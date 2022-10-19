@@ -49,7 +49,7 @@ int validasi(int x){
             printf("==> pilih :");
         }
         else if (x == 1){
-            if (hasil > 2){
+            if (hasil > 1 || hasil < 0){
                 printf("INPUT SALAH!!PILIH ULANG YA!! ");
                 printf("==> pilih :");
             }
@@ -68,7 +68,7 @@ int validasi(int x){
         }
         else if (x == 3)
         {
-            if (hasil > 5){
+            if (hasil > 5 || hasil < 0){
                 printf("INPUT SALAH!!PILIH ULANG YA!! ");
                 printf("==> pilih :");
             }
@@ -162,7 +162,7 @@ int main(){
 
     printf("Apakah ingin mencoba kembali (y/n) ?\n");
     printf("1. ya\n");
-    printf("2. no\n");
+    printf("0. no\n");
     printf("pilih : \n");
     ulang = validasi(1);
 
