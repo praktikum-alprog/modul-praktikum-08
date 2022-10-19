@@ -51,7 +51,7 @@ int validasi(int x){
         else if (x == 1){
             if (hasil > 1 || hasil < 0){
                 printf("INPUT SALAH!!PILIH ULANG YA!! ");
-                printf("==> pilih :");
+                printf("==> pilih (0/1) :");
             }
             else {
                 i = 1;
@@ -59,8 +59,8 @@ int validasi(int x){
         }
         else if(x == 2){
             if (hasil < 1){
-                printf("INPUT SALAH!!PILIH ULANG YA!! ");
-                printf("==> pilih :");
+                printf("BILANGAN KEDUA TIDAK BOLEH NOL(0) / KURANG DARI NOL(0) YAAA!! ");
+                printf("==> SILAHKAN MASUKKAN ULANG :");
             }
             else{
                 i = 1;
@@ -70,7 +70,7 @@ int validasi(int x){
         {
             if (hasil > 5 || hasil < 0){
                 printf("INPUT SALAH!!PILIH ULANG YA!! ");
-                printf("==> pilih :");
+                printf("==> pilih (0-5) :");
             }
             else{
                 i = 1;
