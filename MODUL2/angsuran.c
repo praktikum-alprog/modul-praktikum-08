@@ -122,6 +122,7 @@ int main(){
         ulang = valid(0);
 
         if (ulang == 1){
+            system("cls");
             main();
         }
         else{
