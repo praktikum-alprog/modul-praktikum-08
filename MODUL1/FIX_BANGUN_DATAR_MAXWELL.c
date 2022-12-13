@@ -62,7 +62,7 @@ void belah_ketupat(){
 	int diagonal1, diagonal2, kel, luas, pilih, sisi;
 	
 	printf("||============================================||\n");
-	printf("||     Program Menghitung Segitiga Sembarang  ||\n");
+	printf("||     Program Menghitung Belah Ketupat       ||\n");
 	printf("||     1. Menghitung Luas                     ||\n");
 	printf("||     2. Menghitung Keliling                 ||\n");
 	printf("||============================================||\n");
@@ -99,7 +99,7 @@ void jajar_genjang(){
 	int alas, kel, luas, lbr, pjg, pilih, tinggi;
 	
 	printf("||============================================||\n");
-	printf("||     Program Menghitung Segitiga Sembarang  ||\n");
+	printf("||     Program Menghitung Jajar Genjang       ||\n");
 	printf("||     1. Menghitung Luas                     ||\n");
 	printf("||     2. Menghitung Keliling                 ||\n");
 	printf("||============================================||\n");
@@ -136,7 +136,7 @@ void trapesium(){
 	int alas1, alas2, kel, luas, pilih, sisi1, sisi2, sisi3, sisi4, tinggi;
 	
 	printf("||============================================||\n");
-	printf("||     Program Menghitung Segitiga Sembarang  ||\n");
+	printf("||     Program Menghitung Trapesium           ||\n");
 	printf("||     1. Menghitung Luas                     ||\n");
 	printf("||     2. Menghitung Keliling                 ||\n");
 	printf("||============================================||\n");
@@ -178,7 +178,7 @@ void lingkaran(){
 	int pilih;
 	
 	printf("||============================================||\n");
-	printf("||     Program Menghitung Segitiga Sembarang  ||\n");
+	printf("||     Program Menghitung Lingkaran           ||\n");
 	printf("||     1. Menghitung Luas                     ||\n");
 	printf("||     2. Menghitung Keliling                 ||\n");
 	printf("||============================================||\n");
@@ -292,7 +292,7 @@ void menu(){
 				printf("Input invalid! Pilih dengan benar : ");
 			}
 			else if (x == 1){
-				if (hasil > 2 || hasil <= 0){
+				if (hasil > 2 || hasil <= 0 ){
 					printf("Input invalid! Pilih dengan benar : ");
 				}
 				else {
