@@ -40,7 +40,7 @@ void enkripsi (int geser){
       string[j] = toupper(string[j]);
    }
 
-   printf("Hasil dekripsi : %s", string);
+   printf("Hasil enkripsi : %s", string);
 }
 
 void dekripsi (int geser){
